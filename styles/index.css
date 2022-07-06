@@ -1,15 +1,13 @@
 *{
     background-color: lavender;
     box-sizing: border-box;
-    padding: 10px 20px;
-    justify-content: center;
+    padding: 5px 10px;
 }
 
 .grid-container{
     display: grid;
-    color: whitesmoke;
-    grid-template-columns: 280px 460px 135px 160px 280px 18px ;
-    grid-template-rows: 230px 500px;
+    grid-template-columns: 210px 400px 170px 180px 200px 1px;
+    grid-template-rows: 220px 360px;
     row-gap:12px;
     column-gap: 12px;
 }
@@ -49,6 +47,8 @@
     grid-row-start: 1;
     grid-row-end: 3;
 }
+.grid-item8{
+    padding-right: 20px;}
 
 #m6{
     background-color: dodgerblue;
